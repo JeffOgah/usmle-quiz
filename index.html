@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>USMLE Quiz</title>
-    <link rel="stylesheet" href="./styles/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
     <main>
-        <h1>USMLE Prep Quiz</h1>
-        <section>
-            <h3>Customize your quiz</h3>
+      <h1>USMLE Prep Quiz</h1>
+      <section>
+        <h3>Customize your quiz</h3>
+        <form>
             <div>
                 <label for="testTime">Enter time in minutes</label>
                 <input id="testTime" type="number" value="20" min="1" max="240">   
             </div>
             <div>
-                <label for="noOfQuestions">Enter time in minutes</label>
-                <input id="noOfQuestions" type="number" value="40" min="1" max="240">   
+                <label for="noOfQuestions">Enter number of questions</label>
+                <input id="noOfQuestions" type="number" value="40" min="1">   
             </div>
-        </section>
-        <section>
-            <div id="questions"></div>
-        </section>
+            <button id="submit">Start Quiz</button>
+        </form>
+      </section>
+      <section>
+        <div id="currentQuestion"></div>
+      </section>
+      <section>
+        <div id="questionHistory"></div>
+      </section>
     </main>
-    
 
     <script src="./scripts /index.js"></script>
-</body>
+  </body>
 </html>
