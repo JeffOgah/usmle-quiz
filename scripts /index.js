@@ -219,7 +219,13 @@ let p = document.createElement('p');
 p.innerHTML = question;
 questionNode.appendChild(p)
 
-document.getElementById('submit').addEventListener()
+document.getElementById('submit').addEventListener(
+  "click",
+  event => {
+    event.preventDefault();
+  },
+  false
+);
 function quizInit () {
 
 }
