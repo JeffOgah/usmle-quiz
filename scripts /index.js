@@ -219,8 +219,11 @@ let p = document.createElement('p');
 p.innerHTML = question;
 questionNode.appendChild(p)
 
+function createQuestion (question, answer) {
+    
+}
+function renderQuestion (question, answer) {
 
-
-
+}
 
 
