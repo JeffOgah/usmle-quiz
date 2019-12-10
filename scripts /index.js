@@ -219,6 +219,10 @@ let p = document.createElement('p');
 p.innerHTML = question;
 questionNode.appendChild(p)
 
+document.getElementById('submit').addEventListener()
+function quizInit () {
+
+}
 function createQuestion (question, answer) {
     
 }
