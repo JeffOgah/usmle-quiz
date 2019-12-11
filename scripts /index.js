@@ -211,39 +211,58 @@ const data = [
   [`xxx`, `xxx`]
 ];
 
-/* const questionNode = document.getElementById("questions");
-
-const [question, answer] = data[0];
-console.log(questionNode);
-let p = document.createElement("p");
-p.innerHTML = question;
-questionNode.appendChild(p);
- */
-
 document.getElementById("submit").addEventListener(
   "click",
   event => {
     event.preventDefault();
+    document.getElementById('quizSetup').style.display = "none";
     quizInit();
   },
   false
 );
 
-let quizTime = Number(document.getElementById("quizTime").value);
-const timer = document.getElementById("timer");
-
-const displayTime = setInterval(() => {
-  quizTime--;
-  let hour = `0${Math.floor(quizTime/60)}`;
-  let minute = `0${quizTime % 60}`;
-  timer.innerHTML = `${hour.slice(-2)} : ${minute.slice(-2)}`
-  if (quizTime < 0) {
-    clearInterval(displayTime);
+const displayTime = () => {
+  let quizTime = document.getElementById("quizTime").value;
+  const timerNode = document.getElementById("timer");
+  if (quizTime > 1) {
+    timerNode.style.display = "inline-block"
+    const timer = setInterval(() => {
+      quizTime--;
+      let min = `0${Math.floor(quizTime / 60)}`;
+      let sec = `0${quizTime % 60}`;
+      timerNode.innerHTML = `${min.slice(-2)} : ${sec.slice(-2)}`;
+      if (quizTime == 0) {
+        clearInterval(timer);
+      }
+    }, 1000);
   }
-}, 1000);
+};
 
 function quizInit() {
-  let noOfQuestions = document.getElementById("noOfQuestions").value;
+  displayTime();
+  createQuestion();
 }
-function createQuestion(question, answer) {}
-function renderQuestion(question, answer) {}
+function createQuestion() {
+  const noOfQuestions = document.getElementById("noOfQuestions").value;
+  const max = data.length;
+  for (let i=0; i <= noOfQuestions; i++) {
+    let random = Math.floor(Math.random() * (max - 0)) + 0;
+    renderQuestion(random);
+  }
+}
+function renderQuestion(value) {
+  const questionNode = document.getElementById("currentQuestion");
+  let [question, answer] = data[value];
+  questionNode.appendChild(question);
+  questionNode.appendChild(answer)
+
+}
+/* function markQuestion() {
+  const correct = document.createElement('button');
+  const wrong = document.createElement('button');
+
+  correct.classList.add('correct-btn');
+  wrong.classList.add('wrong-btn');
+
+  return (correct, wrong)
+} */
