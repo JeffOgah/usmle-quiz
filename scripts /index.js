@@ -211,6 +211,9 @@ const data = [
   [`xxx`, `xxx`]
 ];
 
+const questionNode = document.getElementById('currentQuestion');
+const questionHistory = document.getElementById('questionHistory');
+
 document.getElementById("submit").addEventListener(
   "click",
   event => {
@@ -247,14 +250,21 @@ function createQuestion() {
   const max = data.length;
   for (let i=0; i <= noOfQuestions; i++) {
     let random = Math.floor(Math.random() * (max - 0)) + 0;
-    renderQuestion(random);
+    renderQuestion(data[random]);
   }
 }
 function renderQuestion(value) {
-  const questionNode = document.getElementById("currentQuestion");
-  let [question, answer] = data[value];
+  let question = document.createElement('p');
+  let answer = document.createElement('p');
+
+  question.innerHTML = value[0];
+  answer.innerHTML = value[1];
+
   questionNode.appendChild(question);
-  questionNode.appendChild(answer)
+  questionNode.appendChild(answer);
+
+  questionHistory.appendChild(question);
+  questionHistory.appendChild(answer);
 
 }
 /* function markQuestion() {
