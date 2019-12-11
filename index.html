@@ -13,7 +13,7 @@
       <section id="quizSetup">
         <h3>Customize your quiz</h3>
         <form>
-          <div>
+          <div class="flex-col mt-2">
             <label for="quizTime">Enter time in minutes</label>
             <input
               id="quizTime"
@@ -24,7 +24,7 @@
               required
             />
           </div>
-          <div>
+          <div class="flex-col mt-2">
             <label for="noOfQuestions">Enter number of questions</label>
             <input
               id="noOfQuestions"
@@ -34,12 +34,14 @@
               required
             />
           </div>
-          <button id="submit" class="submit-btn">Start Quiz</button>
+          <button id="submit" class="submit-btn mt-2">Start Quiz</button>
         </form>
       </section>
       <section>
         <div id="timer"></div>
         <div id="currentQuestion"></div>
+      </section>
+      <section>
         <div id="questionHistory"></div>
       </section>
     </main>

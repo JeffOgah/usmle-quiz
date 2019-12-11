@@ -211,14 +211,11 @@ const data = [
   [`xxx`, `xxx`]
 ];
 
-const questionNode = document.getElementById('currentQuestion');
-const questionHistory = document.getElementById('questionHistory');
-
 document.getElementById("submit").addEventListener(
   "click",
   event => {
     event.preventDefault();
-    document.getElementById('quizSetup').style.display = "none";
+    document.getElementById("quizSetup").style.display = "none";
     quizInit();
   },
   false
@@ -228,7 +225,7 @@ const displayTime = () => {
   let quizTime = document.getElementById("quizTime").value;
   const timerNode = document.getElementById("timer");
   if (quizTime > 1) {
-    timerNode.style.display = "inline-block"
+    timerNode.style.display = "inline-block";
     const timer = setInterval(() => {
       quizTime--;
       let min = `0${Math.floor(quizTime / 60)}`;
@@ -245,27 +242,30 @@ function quizInit() {
   displayTime();
   createQuestion();
 }
+
 function createQuestion() {
   const noOfQuestions = document.getElementById("noOfQuestions").value;
   const max = data.length;
-  for (let i=0; i <= noOfQuestions; i++) {
+  for (let i = 0; i < noOfQuestions; i++) {
     let random = Math.floor(Math.random() * (max - 0)) + 0;
     renderQuestion(data[random]);
   }
 }
 function renderQuestion(value) {
-  let question = document.createElement('p');
-  let answer = document.createElement('p');
+  let  questionHistory = document.getElementById("questionHistory");
+  let questionNode = document.getElementById("currentQuestion");
+
+  let question = document.createElement("p");
+  let answer = document.createElement("p");
 
   question.innerHTML = value[0];
   answer.innerHTML = value[1];
 
-  questionNode.appendChild(question);
-  questionNode.appendChild(answer);
+  questionHistory.appendChild(question,answer);
+  questionNode.appendChild(question, answer);
 
-  questionHistory.appendChild(question);
-  questionHistory.appendChild(answer);
-
+  console.log(questionNode, questionHistory);
+  console.log(question,answer)
 }
 /* function markQuestion() {
   const correct = document.createElement('button');
