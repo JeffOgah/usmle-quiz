@@ -252,8 +252,8 @@ function createQuestion() {
   }
 }
 function renderQuestion(value) {
-  let  questionHistory = document.getElementById("questionHistory");
-  let questionNode = document.getElementById("currentQuestion");
+  const questionHistory = document.getElementById("questionHistory");
+  const questionNode = document.getElementById("currentQuestion");
 
   let question = document.createElement("p");
   let answer = document.createElement("p");
