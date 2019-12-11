@@ -224,9 +224,26 @@ document.getElementById("submit").addEventListener(
   "click",
   event => {
     event.preventDefault();
+    quizInit();
   },
   false
 );
-function quizInit() {}
+
+let quizTime = Number(document.getElementById("quizTime").value);
+const timer = document.getElementById("timer");
+
+const displayTime = setInterval(() => {
+  quizTime--;
+  let hour = `0${Math.floor(quizTime/60)}`;
+  let minute = `0${quizTime % 60}`;
+  timer.innerHTML = `${hour.slice(-2)} : ${minute.slice(-2)}`
+  if (quizTime < 0) {
+    clearInterval(displayTime);
+  }
+}, 1000);
+
+function quizInit() {
+  let noOfQuestions = document.getElementById("noOfQuestions").value;
+}
 function createQuestion(question, answer) {}
 function renderQuestion(question, answer) {}

@@ -12,10 +12,10 @@
       <h1>USMLE Prep Quiz</h1>
       <section>
         <h3>Customize your quiz</h3>
-        <form>
+        <form id="quizSetup">
             <div>
-                <label for="testTime">Enter time in minutes</label>
-                <input id="testTime" type="number" value="20" min="1" max="240">   
+                <label for="quizTime">Enter time in minutes</label>
+                <input id="quizTime" type="number" value="20" min="1" max="240">   
             </div>
             <div>
                 <label for="noOfQuestions">Enter number of questions</label>
@@ -25,6 +25,7 @@
         </form>
       </section>
       <section>
+        <span id="timer"></span>
         <div id="currentQuestion"></div>
       </section>
       <section>
