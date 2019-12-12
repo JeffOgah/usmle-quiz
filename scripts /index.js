@@ -745,14 +745,14 @@ function showAnswerEvents() {
 }
 
 function quizInit() {
-  displayTime();
+  // displayTime();
   createQuestion();
   renderQuestion(data[counter]);
 }
 
 function markAnswer(value) {
   if (value == "wrong") {
-    questionHistory.append(questionNode, answerNode);
+    addToHistory(data[counter]);
   }
   //move to the next question
   counter++;
@@ -765,7 +765,7 @@ function markAnswer(value) {
   }
 }
 
-const displayTime = () => {
+/* const displayTime = () => {
   let quizTime = document.getElementById("quizTime").value;
   const timerNode = document.getElementById("timer");
   if (quizTime > 1) {
@@ -780,7 +780,7 @@ const displayTime = () => {
       }
     }, 1000);
   }
-};
+}; */
 
 function createQuestion() {
   const noOfQuestions = document.getElementById("noOfQuestions").value;
@@ -799,4 +799,15 @@ function createQuestion() {
 function renderQuestion(value) {
   questionNode.innerHTML = `<b>${value[0]}</b>`;
   answerNode.innerHTML = value[1];
+}
+
+function addToHistory([quest, ans]) {
+  let container = document.createElement('div');
+  let questNode = document.createElement('p');
+  let ansNode = document.createElement('p');
+  questNode.innerHTML = `<b>${quest}</b>`;
+  ansNode.innerHTML = ans;
+  
+  container.append(questNode, ansNode);
+  questionHistory.append(container);
 }

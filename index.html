@@ -13,7 +13,7 @@
       <section id="quizSetup">
         <h3>Customize your quiz</h3>
         <form>
-          <div class="flex-col mt-2">
+<!--           <div class="flex-col mt-2">
             <label for="quizTime">Enter time in minutes</label>
             <input
               id="quizTime"
@@ -23,7 +23,7 @@
               max="240"
               required
             />
-          </div>
+          </div> -->
           <div class="flex-col mt-2">
             <label for="noOfQuestions">Enter number of questions</label>
             <input
@@ -38,19 +38,21 @@
         </form>
       </section>
       <section>
-        <div id="timer"></div>
+        <!-- <div id="timer"></div> -->
         <div id="currentQuestion" class="d-none">
-          <div id="question"></div>
-          <button id="showAnswer" onclick="showAnswerEvents()">Show Answer</button>
-          <div id="answer" class="d-none"></div>
-          <div id="markQuestion" class="d-none">
+          <div id="question" class="mt-2"></div>
+          <button id="showAnswer" onclick="showAnswerEvents()" class="mt-2">Show Answer</button>
+          <div id="answer" class="d-none mt-2"></div>
+          <div id="markQuestion" class="d-none mt-2">
             <button class="correct-btn" onclick="markAnswer('correct')">Correct</button>
             <button class="wrong-btn" onclick="markAnswer('wrong')">Wrong</button>
           </div>
         </div>
       </section>
       <section>
-        <div id="questionHistory"></div>
+        <div id="questionHistory" class="d-none">
+          <h2>Wrong Answers</h2>
+        </div>
       </section>
     </main>
 
