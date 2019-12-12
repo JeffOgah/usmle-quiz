@@ -9,22 +9,24 @@
   </head>
   <body>
     <main>
-      <a href="/"><h1>USMLE Prep Quiz</h1></a>
+      <h1>USMLE Prep Quiz</h1>
       <section id="quizSetup">
-          <div>
-              <h2>How to Use</h2>
-              <ul>
-                <li>Input the number of questions to attempt</li>
-                <li>Start quiz</li>
-                <li>Answer each question to yourself</li>
-                <li>Click show answer to view the correct answer</li>
-                <li>Mark answer as correct or wrong </li>
-                <li>Wrong answers will be recorded and shown at the end of the quiz</li>
-              </ul>
-            </div>
+        <div>
+          <h2>How to Use</h2>
+          <ul>
+            <li>Input the number of questions to attempt</li>
+            <li>Start quiz</li>
+            <li>Answer each question to yourself</li>
+            <li>Click show answer to view the correct answer</li>
+            <li>Mark answer as correct or wrong</li>
+            <li>
+              Wrong answers will be recorded and shown at the end of the quiz
+            </li>
+          </ul>
+        </div>
         <h3>Customize your quiz</h3>
         <form>
-<!--           <div class="flex-col mt-2">
+          <!--           <div class="flex-col mt-2">
             <label for="quizTime">Enter time in minutes</label>
             <input
               id="quizTime"
@@ -45,19 +47,24 @@
               required
             />
           </div>
-          <button id="submit" class="submit-btn mt-2">Start Quiz</button>
+          <button id="submit" class="btn mt-2">Start Quiz</button>
         </form>
-        
       </section>
       <section>
         <!-- <div id="timer"></div> -->
         <div id="currentQuestion" class="d-none">
           <div id="question" class="mt-2"></div>
-          <button id="showAnswer" onclick="showAnswerEvents()" class="mt-2">Show Answer</button>
+          <button id="showAnswer" onclick="showAnswerEvents()" class="mt-2">
+            Show Answer
+          </button>
           <div id="answer" class="d-none mt-2"></div>
           <div id="markQuestion" class="d-none mt-2">
-            <button class="correct-btn" onclick="markAnswer('correct')">Correct</button>
-            <button class="wrong-btn" onclick="markAnswer('wrong')">Wrong</button>
+            <button class="correct-btn" onclick="markAnswer('correct')">
+              Correct
+            </button>
+            <button class="wrong-btn" onclick="markAnswer('wrong')">
+              Wrong
+            </button>
           </div>
         </div>
       </section>
@@ -65,6 +72,10 @@
         <div id="questionHistory" class="d-none">
           <h2>Wrong Answers</h2>
         </div>
+        <h2 class="d-none" id="perfectScore">Perfect Score!</h2>
+        <button id="newQuiz" class="btn mt-2 d-none" onclick="location.reload()">
+          Home
+        </button>
       </section>
     </main>
 

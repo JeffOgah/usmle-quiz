@@ -6,6 +6,7 @@ const showAnswerNode = document.getElementById("showAnswer");
 const questionHistory = document.getElementById("questionHistory");
 let questions = [];
 let counter = 0;
+let wrongCount = 0;
 
 //Event Listeners
 document.getElementById("submit").addEventListener(
@@ -48,7 +49,13 @@ function markAnswer(value) {
     showAnswerEvents();
   } else {
     document.getElementById("currentQuestion").classList.add("d-none");
-    questionHistory.classList.remove("d-none");
+    if (wrongCount > 0) {
+      questionHistory.classList.remove("d-none");
+    }
+    else {
+      document.getElementById("perfectScore").classList.remove("d-none");
+    }
+    document.getElementById("newQuiz").classList.remove("d-none")
   }
 }
 
