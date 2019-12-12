@@ -102,64 +102,137 @@ const data = [
   L – Loss of taste \n 
   S – Sudden onset \n Nephritis
   Palsy of VII nerve muscles (increased sensitivity to sound)`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
-  [`xxx`, `xxx`],
+  [`number needed to treat.`, `1/ARR`],
+  [`Psych question. Gave a scenario with a person who is schizophrenic
+  and now has some rigidity.`, `benztropine`],
+  [`Some lady just gave birth to a kid. Has been having vaginal bleeding
+  since birth and has been stuffing her vagina with towels and stuff. Now she is
+  sick fever skin rash or something.`, `Toxic Shock Syndrome - staph aureus (fever, rash, shock)
+  `],
+  [`Patient is woken up in the middle of the night with pain in the eye...
+  diagnosis?`, `Acute angle closure glaucoma or uveitis`],
+  [`Picture of blood cells. I saw rouloux and thought of multiple myeloma.
+  What do u do?`, `Bone aspirate is most accurate \n 
+  (>10% plasma cells in BM, M protein on urine/serum electrophoresis, lytic
+  lesions)`],
+  [`Some lady had renal transplant. How to protect the kidney?`, `allopurinol if they are trying to prevent tumor lysis syndrome while on
+  chemotherapy.`],
+  [`Baby has misaligned gluteal folds.`, `congenital hip dysplasia`],
+  [`Bone growth from femur? What do u do?`, `excise – could be spur or cancer`],
+  [`Old lady wants to prevent fractures. Has a hx of DVT. She takes Ca and
+  Vit D supplements. What else can she do?`, `Don’t choose estrogen bc that can cause DVT. \n 
+  I chose aldronate.`],
+  [`Some guy has hypertension. U hear a renal artery bruit. What do u see
+  on biopsy?`, `atherosclerosis from aorta to renal artery`],
+  [`Picture of a really bad skin infection + nikolksky’s sign? What to do?`, `transfer to burn unit`],
+  [`GI q – woman with nonbilious vomiting, multiple air fluid levels, what’s
+  the next step?`, `SBO – hyperactive bowel sounds \n 
+  Ileus – no bowel sounds`],
+  [`Tx of MALT`, `Treat H. Pylori`],
+  [`Lower limb cast, patient feels pain in leg still, cannot flex toe, what is
+  the next step?`, `checking pressure compartments`],
+  [`Posterior knee dislocation, next step?`, `PCL tear – repair the tear`],
+  [`Meningitis patient, know all steps of tx?`, `Antibiotics followed by LP (do a CT if signs of increased pressure) \n 
+  Empiric Antibiotics – Vancomycin, Ceftriaxone \n 
+  Steroids – if thousands of neutrophils \n 
+  Add Ampicillin if immunocompromised for Listeria`],
+  [`Dyspnea Mechanism of CHF – (look at q34 NBME IM)`, `increased or decreased pressure, aortic, ventricles`],
+  [`HCC image`, `increased AFP`],
+  [`Breast Tumors - G2P2 with thin milky discharge and lump on one
+  breast`, `diff options; ductal papilloma \n 
+  Prolactinoma will cause milky discharge and possible proliferation of the
+  ducts causing a lump?????????????`],
+  [`Older women presenting with signs of menopause for about 9 months.`, `Discuss HRT`],
+  [`Pregnant woman described as having carpal tunnel`, `wrist splints`],
+  [`Diabetic foot with large ulcer – know steps of tx`, `debridement and glucose control \n 
+  • Peripheral Neuropathy- inability to sense minor foot trauma and foot pain due to high pressure on the skin \n 
+  • Microvascular insufficiency- poor perfusion due to microvascular insufficiency also promotes ulcer formation and predisposes to poor wound
+  healing. \n 
+  • Relative immunosuppression- predisposes to infections of these wounds,
+  which may not only slow healing but may also predispose to osteomyelitis \n 
+  • COMP may say something like: Pressure gradient due to sensory changes`],
+  [`Described patient with Marfans`, `MVP is most common, can also have AR`],
+  [`Description of patient with Klinefelters`, `xxexample of aneuploidy (XXY)x`],
+  [`Description of patient with Fragile X syndrome`, `example of trinucleotide repeat CGG`],
+  [`Young boy with lump under breast, tender to touch`, `is that normal puberty?`],
+  [`Know that MDD and OCD are treated with SSRIs`, ``],
+  [`Know what side effects may occur if MDD patient is switched from
+  SSRI to bupoprion; and what indications there are for that switch; know what would cause seizures`, `The switch is done if the patient is a smoker, is getting too much weight gain from SSRI or if they are having sexual dysfunction. \n 
+  Buproprion it however lowers seizure threshold so must be avoided in bulimic and anorexic patients due to pre-existing electrolyte imbalances.`],
+  [`Patient with prior history of AAA comes in with chest or abdominal
+  pain, know next step of action?`, `emergency op
+  `],
+  [`Young patient with parents who smoke, constantly coughing and
+  shrugging his shoulders`, `chronic exposure to cigarette smoke`],
+  [`2 week infant with high fever for 40 hours – know next step of
+  treatment?`, `NSAIDS \n 
+  acetaminophen used for fever`],
+  [`Marcus Gunn pupil`, `afferent pupillary defect due to optic nerve damage or severe retinal injury \n 
+  tested by swinging flash light test \n 
+  Seen in Multiple Sclerosis, Optic Neuritis`],
+  [`a “curtain falling over the eye”`, `retinal detachment and amauroxis fugax (both are differentials)`],
+  [`Barium swallow. Hiatal hernia (dysphagia for solids & liquids) with
+  weight loss`, `A. Schatzkis \n 
+  B. Achalasia \n 
+  C. Esophageal hernia`],
+  [`Bed-ridden patient and causes of foul breath`, `anaerobic organisms from aspiration`],
+  [`TEN question- tx was?`, `Prednisone`],
+  [`Worst cause of RF`, `HTN \n 
+  Hb A1C?`],
+  [`Chronic Nepthropathy due to?`, `HTN or donor? \n 
+  most common cause is HTN \n 
+  Worst cause is Diabetes`],
+  [`S pneumo treatment – macrolides. Mechanism of action?`, `Blocks 50S – blocking translocation \n 
+  macroslides, it slides with the bid number`],
+  [`Bronchiectasis- has dandelion like picture- what's the agent?
+  `, `Aspergillus`],
+  [`Gout`, `long term decrease alcohol and meat intake`],
+  [`Patient ate chicken got sick`, `salmonella-fecal leukocyte test \n  \n 
+  Salmonella gastroenteritis is usually a self-limiting disease. Fluid and electrolyte replacement may be indicated in severe cases. Because
+  antibiotics do not appear to shorten the duration of symptoms and may
+  actually prolong the duration of convalescent carriage, they are not
+  routinely used to treat uncomplicated nontyphoidal Salmonella
+  gastroenteritis. Current recommendations are that antibiotics be
+  reserved for patients with severe disease or patients who are at a high risk for invasive disease.
+  `],
+  [`Pneumocystis`, `TMP-SMX \n 
+  if toxicity from TMPSMX give Clindamycin and Primquine or
+  Pentamidine \n 
+  Atovoquone for mild PCP \n 
+  Add Steriods for severe PCP`],
+  [`Latent phase of labor`, `Stages of Labour \n
+  First \n
+  \t Latent- 0-6cm cervical dilation  \n
+  \t Active- 6-10cm (complete) cervical dilation \n
+  Second- 10cm (complete) cervical dilation to delivery \n
+  Third- delivery of baby to delivery of placenta \n
+  A prolonged latent phase can be defined as ≥20 hours for the nullipara and ≥14 hours
+  for the multiparous woman.`],
+  [`Lactate ringer or normal saline for burn patient?`, `Always ringer (includes saline + dextrose) unless it isn't a choice \n 
+  NS may be inferior to LR in resuscitation due to its vasodilator effects
+  and the risks of metabolic acidosis and hyperkalemia.`],
+  [`ADHD treatment`, `behavioral therapy first then Methylphenidate`],
+  [`NuvaRing (Vaginal Ring) - changes with weight gain`, `need to recheck with doctor for position every 8 weeks`],
+  [`Meckels`, `technetium 99 scan`],
+  [`Potassium levels`, `low, treat with however much potassium you need`],
+  [`Colon ca screening age- patient had one brother who had
+  CCancer when to start screening?`, `40 years old or 10 years prior to age when brother was diagnosed.`],
+  [`DIC`, `FFP if platelets are below 50,000 but is asymptomatic than below 10,000`],
+  [` Risk factor cancer in lung pleura`, `mesothelioma in lung pleura – asbestosis (bronchogenic carcinoma is more
+    common)  \n 
+    or smoking?`],
+  [`Baby born 4 ounces, respiratory failure. What should u do?`, `surfactant`],
+  [`Guy with Polycythemia. What can prevent it?`, `
+  Primary polycythemia (polycythemia vera) can't be prevented. \n 
+  However, you can prevent secondary polycythemia by avoiding things that deprive your body of oxygen for long periods. For example, you can avoid mountain climbing, living at a high altitude, or smoking`],
+  [`Hodgkin's Lymphoma`, `EBV \n 
+
+  Hodgkin’s is generalized LAD. \n 
+  non Hodgkins presents like squamous cell carcinoma (uw)`],
+  [`PPV rises with increase in prevalence, NPV falls. no change in SN & SP`, ``],
+  [`Klinefelter`, `Hypogonadism`],
+  [`Twins with one sac and no membrane between. Increased risk of:
+  `, `cord entanglement`],
   [`xxx`, `xxx`],
   [`xxx`, `xxx`],
   [`xxx`, `xxx`],
@@ -317,7 +390,8 @@ function renderQuestion(value) {
   let [correctBtn, wrongBtn] = markQuestion();
 
   question.innerHTML = `<b>${value[0]}</b>`;
-  answer.innerText = value[1];
+  answer.innerHTML = value[1];
+
 
   // questionHistory.appendChild(question,answer);
   questionNode.append(question, answer, correctBtn, wrongBtn);
