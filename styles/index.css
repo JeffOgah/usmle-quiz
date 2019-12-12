@@ -15,6 +15,9 @@ button {
     border-radius: 5px;
     margin-right: 2em;
   }
+  .d-none {
+    display: none;
+  }
   .flex-col {
     display: flex;
     flex-direction: column;

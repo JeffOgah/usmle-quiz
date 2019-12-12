@@ -39,7 +39,15 @@
       </section>
       <section>
         <div id="timer"></div>
-        <div id="currentQuestion"></div>
+        <div id="currentQuestion" class="d-none">
+          <div id="question"></div>
+          <button id="showAnswer" onclick="showAnswerEvents()">Show Answer</button>
+          <div id="answer" class="d-none"></div>
+          <div id="markQuestion" class="d-none">
+            <button class="correct-btn" onclick="markAnswer('correct')">Correct</button>
+            <button class="wrong-btn" onclick="markAnswer('wrong')">Wrong</button>
+          </div>
+        </div>
       </section>
       <section>
         <div id="questionHistory"></div>
