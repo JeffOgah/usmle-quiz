@@ -84,7 +84,7 @@ function createQuestion() {
 }
 
 function renderQuestion(value) {
-  questionNode.innerHTML = `<b>${value[0]}</b>`;
+  questionNode.innerHTML = `<b>${counter+1}. ${value[0]}</b>`;
   answerNode.innerHTML = value[1];
 }
 
