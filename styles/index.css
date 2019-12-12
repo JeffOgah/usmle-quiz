@@ -39,3 +39,17 @@ button {
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
   }
+.correct-btn {
+  background-color: rgb(3, 175, 3);
+  color: white;
+}
+.correct-btn:hover {
+  background-color: green;
+}
+.wrong-btn {
+  background-color: rgb(204, 9, 9);
+  color: white;
+}
+.wrong-btn:hover {
+  background-color: rgb(167, 3, 3);
+}

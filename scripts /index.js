@@ -257,22 +257,25 @@ function renderQuestion(value) {
 
   let question = document.createElement("p");
   let answer = document.createElement("p");
+  let [correctBtn, wrongBtn] = markQuestion();
 
   question.innerHTML = value[0];
   answer.innerHTML = value[1];
 
-  questionHistory.appendChild(question,answer);
-  questionNode.appendChild(question, answer);
-
-  console.log(questionNode, questionHistory);
-  console.log(question,answer)
+  // questionHistory.appendChild(question,answer);
+  questionNode.append(question, answer, correctBtn, wrongBtn);
+  console.log(correctBtn,wrongBtn)
 }
-/* function markQuestion() {
+
+function markQuestion() {
   const correct = document.createElement('button');
   const wrong = document.createElement('button');
 
+  correct.innerHTML = "Correct"
   correct.classList.add('correct-btn');
+
+  wrong.innerHTML = "Wrong"
   wrong.classList.add('wrong-btn');
 
-  return (correct, wrong)
-} */
+  return [correct, wrong]
+}
