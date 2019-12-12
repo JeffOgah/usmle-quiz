@@ -41,6 +41,7 @@ function quizInit() {
 function markAnswer(value) {
   if (value == "wrong") {
     addToHistory(data[counter]);
+    wrongCount++;
   }
   //move to the next question
   counter++;
