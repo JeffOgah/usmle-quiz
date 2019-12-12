@@ -35,18 +35,18 @@ function showAnswerEvents() {
 function quizInit() {
   // displayTime();
   createQuestion();
-  renderQuestion(data[counter]);
+  renderQuestion(questions[counter]);
 }
 
 function markAnswer(value) {
   if (value == 'wrong') {
-    addToHistory(data[counter]);
+    addToHistory(questions[counter]);
     wrongCount++;
   }
   //move to the next question
   counter++;
   if (counter < questions.length) {
-    renderQuestion(data[counter]);
+    renderQuestion(questions[counter]);
     showAnswerEvents();
   } else {
     document.getElementById('currentQuestion').classList.add('d-none');
@@ -83,10 +83,10 @@ function createQuestion() {
   for (let i = 0; i < noOfQuestions; i++) {
     let random = Math.floor(Math.random() * (max - 0)) + 0;
     if (!questions.includes(random)) {
-      questions.push(random);
+      questions.push(data[random]);
     } else {
       random = Math.floor(Math.random() * (max - 0)) + 0;
-      questions.push(random);
+      questions.push(data[random]);
     }
   }
 }
