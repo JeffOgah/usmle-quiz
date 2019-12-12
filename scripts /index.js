@@ -35,18 +35,18 @@ function showAnswerEvents() {
 function quizInit() {
   // displayTime();
   createQuestion();
-  renderQuestion(data[counter]);
+  renderQuestion(data[question[counter]]);
 }
 
 function markAnswer(value) {
   if (value == 'wrong') {
-    addToHistory(data[counter]);
+    addToHistory(data[question[counter]]);
     wrongCount++;
   }
   //move to the next question
   counter++;
   if (counter < questions.length) {
-    renderQuestion(data[counter]);
+    renderQuestion(data[question[counter]]);
     showAnswerEvents();
   } else {
     document.getElementById('currentQuestion').classList.add('d-none');
