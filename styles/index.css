@@ -62,7 +62,7 @@ button {
     line-height: 1.5;
     color: #495057;
     background-color: #fff;
-    border: none;
+    border: 1px solid var(--primary-color);
     border-radius: 0.25rem;
   }
 .correct-btn {
