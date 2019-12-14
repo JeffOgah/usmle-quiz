@@ -707,8 +707,276 @@ const data = [
   [
     `Herniated disc and sciatica what nerve roots?`,
     `L4/L5? <br/> <img src="../images/hy1-q150-ans.png" />`
-  ]
+  ],
+  [
+    `Human bite organism`,
+    `Eikenella <br />
+  Human bite wound pathogens consist of both aerobic and anaerobic bacteria,
+  including streptococci, Staphylococcus aureus, Eikenella, Fusobacterium,
+  Peptostreptococcus, Prevotella, and Porphyromonas
+  Treatment with Amoxicillin/Clavulunic Acid`
+  ],
+  [`PTSD`, `SSRI`],
+  [`Kid with rickets/bowing of legs`, `Vit D deficiency`],
+  [`Baby born at home what at risk of?`, `Vit. K def`],
+  [`Post Operative Day 2 FEVER`, `ATELECTASIS`],
+  [
+    `RA non response and progression`,
+    `Methotrexate <br />
+  Methotrexate (MTX), trimethoprim (TMP), and pyrimethamine inhibit
+  dihydrofolate reductase in humans, bacteria, and protozoa, respectively`
+  ],
+  [
+    `Guy has back pain and limited movement in the morning?`,
+    `lumbosacral Xray to DX Ankylosing Spondylitis`
+  ],
+  [
+    `Patient was pregnant. Has painless ulcer. Was tested for Neisseria,
+  Chlamydia and Syphilis. All were negative. How to treat?`,
+    `benzathine penicillin G.`
+  ],
+  [
+    `Patient has targetoid rash 5 months ago. She now has bilateral facial
+  palsy. What should she have gotten to prevent this early on in disease?`,
+    `Doxycycline (preggos and less than 8 years old you use amoxicillin) <br />
+  Ceftriaxone when CNS and Cardiac Symptoms. <br />
+  Avoid ceftriaxone in neonates because of impaired biliary metabolism <br /> <img src="../images/hy1-q159-ans-a.png"/> <br /> <img src="../images/hy1-q159-ans-b.png" /> `
+  ],
+  [
+    `Patient delivered not too long ago. Had episiotomy midline. Now
+  present with signs of infection. Gauze packing was removed to inspect and
+  was malodourous. Which organism most likely caused the infection?`,
+    `staph – toxic shock syndrome <br/> <img src="../images/hy1-q160-ans.png"/>`
+  ],
+  [
+    `BEST TREATMENT FOR CELLULITIS. A GUY BUMBPED HIS LEG ON
+  TABLE BUT HAD ALL SIGNS OF CELLULITS. BEST TX.`,
+    `CEPHALEXIN <br />
+  Mild disease - oral medications: <br />
+  • Dicloxacillin, cephalexin, cefadroxyl <br />
+  • Penicillin allergic: erythromycin, clarithromycin, or clindamycin <br /> 
+  MRSA: Doxycycline, clindamycin, or TMP/SMX <br /> <br />
+  Severe disease (e.g., fever): <br />
+  IV medications: Oxacillin, nafcillin, cefazolin <br />
+  Penicillin allergic: Clindamycin, vancomycin <br />
+  MRSA: Vancomycin, linezolid, daptomycin, tigecycline, ceftaroline`
+  ],
+  [
+    `Very old lady (60s) with bloody nipple discharge. Asked what it was due to. Mammogram showed no abnormalities.`,
+    `intraductal papilloma`
+  ],
+  [
+    `Biostats. Looking at retrospective study of surgical intervention vs
+  pharmacotherapy of carotid stenosis. After excluding 98 ppl who dies
+  with surgery. Studies proved surgery is better. Why is this study bad?`,
+    `loss of power`
+  ],
+  [
+    `Had a question of women who woke up room spinning. Then had eye
+  problems then had gait problems.`,
+    `MS`
+  ],
+  [
+    `Eye pathology with “cape like cover” what is dx?`,
+    `amorouax (goes away after a while), it can also be retinal detachment
+  (permanent)`
+  ],
+  [
+    `Look up things that have air filled loops of bowel.`,
+    `intestine sticking out through old incision scar
+  `
+  ],
+  [`I had one baby poor feed 2 weeks old. High fever.`, `group b strep`],
+  [
+    `Mechanism of action on patient with urinary incontinence.`,
+    `A. urethral hypermobility – stress incontinence <br />
+  B. hypertonicity of bladder`
+  ],
+  [
+    `I had a very long vignette on types of apnea. Hypo-ventilation
+  syndrome patient was very obese - 300 lbs. Look up blood gases to help??
+  Obese patient with COPD symptoms- cause?`,
+    `Obesity/hypoventilation <br /> <img src="../images/hy1-q170-ans.png"/>`
+  ],
+  [
+    `Close contact prophylaxis for brother ages 2 &9. Older brother has n. meningitidis.`,
+    `rifampin <br />
+  Close contacts of patients with meningococcal meningitis should receive rifampin. <br />
+  Second-line prophylactic regimens include ciprofloxacin, ceftriaxone, or
+  azithromycin.`
+  ],
+  [
+    `There was a scenario trying to describe ADHD in boy. Said kid did not sleep well. Sleeps with mouth open tosses and turns. Plays well soccer with friends. Disturbs class. ADHD was not choice. Asked what test should`,
+    `neuropsychiatric testing <br />
+
+  Sleepy students do not play soccer well and will not disturb class.`
+  ],
+  [
+    `Also had image of barium swallow. Look up zenkers vs achalsia vs
+  corkscrewing and just asked what the pathology was based off image.`,
+    ``
+  ],
+  [
+    `Patient has mucopurulent discharge from cervix, not vagina. Asked
+  most like organism.`,
+    `Chlamydia because I think that causes cervicitis.`
+  ],
+  [
+    `Patient waited till mom was out of room to say she was sexually active.
+  With one partner. Asked which test should you do next. It stated they use
+  condoms regularly.`,
+    `Chlamydia and Neisseria.`
+  ],
+  [
+    `Had a question with guy who had erythema on inner thigh. He was sexually active not consistent with protection. Swims 3x a week and works out 2 x a week. Rash had circular are that was clear in middle.`,
+    `ringworm`
+  ],
+  [
+    `Answer choice was ova and parasites or something.
+  Had diplococcic and gram postive this and that.. hyphae...so look up
+  scrapings and.`,
+    ``
+  ],
+  [
+    `Treatment of IBS after doing high fiber diet.
+  `,
+    `loperamide. It asked pharmacotherapy. <br />opt for sulfasalazine (is for ibd) if in choice list
+  `
+  ],
+  [
+    `Guys had diabetes and recently gout and HTN. What is best initial
+  drug?`,
+    `Ramipril <br />
+
+  ARB decrease Uric Acid. Losartan has been shown to reduce serum uric
+  acid. The mechanism of this process relates to losartan alone and does not
+  involve the E-3174 metabolite of this compound. This probenecid-like
+  effect of losartan occurs shortly after drug administration, and is both
+  transient and dose-dependent.`
+  ],
+  [
+    `Guy having leukemia and not a lymphoma getting treated for ALL. Has
+  high uric acid levels. What u can give to protect kidney?`,
+    `allopurinol. <br />
+  Give Rasburicase and Hydrate them also.
+  `
+  ],
+  [
+    `Asked what is the most important thing to cut down to protect kidney
+  in kid who is fat who eats crap, smokes and has diabetes and htn.`,
+    `control his HTN – use ACEI`
+  ],
+  [
+    `Kid with increased bleeding time. Uncle and bro have dz.`,
+    `I put factor 8 – Hemophilia is X-Linked <br />
+  compare it with vwf (autosomal dominant) and other pathologies.`
+  ],
+  [
+    `Guy has COPD (emphysema) and asked what is MOA of pathology.
+  What is wrong with lungs and why it hyper inflates?`,
+    `I put destruction of elastin.
+  `
+  ],
+  [
+    `Girl had Reynauds and asked what stops pain in digits.`,
+    `nifedipine.
+  `
+  ],
+  [
+    `Women is slowly losing interest in hobby. Losing weight. Sleeping less.`,
+    `major depression`
+  ],
+  [
+    `Women found out hubby a drug dealer. Started to feel anxious about
+  finances and loosing child. Started hearing voices to kill self and baby so
+  they can’t take baby. What is next step?`,
+    `start risperidone... this is not an adjustment rxn cuz of voices.`
+  ],
+  [
+    `Look up IgE syndrome vs IgE levels in asthma`,
+    `<img src="../images/hy1-q187-ans.png"/>`
+  ],
+  [
+    `Guy is a roofer. Dad dies of lung cancer, and is a smoker. Has calcified
+  lesion in upper lobe. What is it most like due to?`,
+    `occupation - asbestosis`
+  ],
+  [
+    `A PE vignette with next best test?`,
+    `I put spiral ct of chest, cuz lower limb was not a choice`
+  ],
+  [
+    `Newborn baby and had meconium aspiration and then later developed
+  respiratory distress with feeding. X-ray had infiltrates. What is it due to?`,
+    `pneumothorax due to aspiration of faeces <br />
+  Meuconium Aspiration complications: <br />
+  Pulmonary Artery HTN, Air leak (Pneumothorax and Pneumomediastinum), <br />
+  Aspiration Pneumonitis <br />
+  X-Ray – patchy infiltrates, flattened diaphragms, increased AP Diameter <br /> <br />
+  Usually, small amounts of meconium migrate slowly to the peripheral airways.
+  This mechanism can create a ball valve phenomenon, in which air flows past
+  the meconium during inspiration but is trapped distally during expiration,
+  leading to increases in expiratory lung resistance, functional residual capacity,
+  and anteroposterior diameter of the chest. Regional atelectasis and
+  ventilation-perfusion mismatches develop from total obstruction of the small
+  airways. Adjacent areas often are partially obstructed and overexpanded,
+  leading to pneumothorax and pneumomediastinum air leaks. Pulmonary air
+  leaks are ten times more likely to develop in infants with meconium aspiration
+  than those without, and leaks often develop during resuscitation.`
+  ],
+  [
+    `Patient had ring and pinky contracted. So a type of claw hand. What
+  was the patho phys. How to fix it?`,
+    `resect sub q fascia – Dupyterens Contracture
+  `
+  ],
+  [
+    `Old guy lifting heavy and sudden pain down leg with loss of reflexes.
+  And asked where injury was in vertebra based on reflexes. Said he
+  couldn’t dorsiflex ankle.`,
+    `Peroneal Nerve Affected – L4-S2`
+  ],
+  [
+    `Male patient. He has psoriasis, a rash on face and bilateral joint wrist
+  problems.`,
+    `SLE patient`
+  ],
+  [
+    `Patient is pregnant, has DVT, had a DVT in past due to estrogen
+  therapy. What to check for?`,
+    `factor 5 mutation`
+  ],
+  [
+    `I had a patient who had steven Johnson syndrome or toxic epidermal
+  necrolysis after carbamazepine. How to treat that patient?`,
+    `I put ICU and ..you should look this up.. this was a picture question.. had
+  nikolsky`
+  ],
+  [
+    `Patient had bleeding gums and drinks heavily. Has increased bleeding
+  time. What vitamins should be checked?`,
+    `Vitamin C  <br />didn’t list k. I think trying to link to pancreatitis.`
+  ],
+  [
+    `Pediatric patient presents with symptoms that characterize varicocele.
+  What is the best diagnostic test?`,
+    `Ultrasound  <br /> <img src="../images/hy1-q197-ans.png"/>
+  `
+  ],
+  [
+    `Mother is currently breast feeding. Has warmth and tenderness of
+  breast. Has mass on outer right quadrant. Has minor fever. What is dx.`,
+    `I put mastitis`
+  ],
+  [
+    `
+  I had one baby poor feed 2 weeks old. High fever.
+  `,
+    `Group B Strep <br />
+  I put group b strep`
+  ],
+  //End HY1 starting HY3
+
 ];
 
 //Stopped at q150 hy1
-
