@@ -1847,7 +1847,174 @@ const data = [
   another hypoglycemic episode in the hospital. No C-peptide present.`,
     `factitious
   hypoglycemia`
+  ],
+  [`Young child from Croatia has a low MCV`, `Beta thalassemia`],
+  [`Sensitivity/specificity graph of fetal fibronectin`, ``],
+  [`Causes of Fetal tacychardia?`, `crack cocaine??`],
+  [
+    ` Elderly patient with bleeding Hemorrhoids Next Step? `,
+    `Fiber &amp; Sitz bath`
+  ],
+  [`Baby solely Given Formula what deficiency?  `, ` Vit D Deficiency`],
+  [`Kawasaki dz treatment? `, `High dose Aspirin &amp; Immediate IVIG`],
+  [
+    `Patient with less than 70% occlusion`,
+    `something to the extent of knowing which type of
+  stress testing to proceed with`
+  ],
+  [` PAD vs Venous ulcer`, ``],
+  [` Bloody Diarrhea in non immunocompromised patient`, ``],
+  [`cryptorchidism...intial course of management`, ``],
+  [
+    `Know eye stuff like uveitis, glaucoma, amouroxus fugax, cataracts, central artery occlusion,
+  venous artery occlusion..ya it sucks I know`,
+    ``
+  ],
+  //End HY3 Begin Developmental milestones during toddlerhood
+  [
+    `Gross motor for 12 months (Developmental milestone)
+  `,
+    `Stands well <br />
+  Walks first steps independently <br />
+  Throws ball
+  `
+  ],
+  [
+    `Fine motor for 12 months (Developmental milestone)
+  `,
+    `2-finger pincer grasp`
+  ],
+  [
+    `Language for 12 months (Developmental milestone)
+  `,
+    `Says first words (other than "mama and dada")
+  `
+  ],
+  [
+    `Social/Cognitive for 12 months (Developmental milestone)`,
+    `Separation anxiety <br />
+  Follows 1-step command with gesture
+  `
+  ],
+  [
+    `Gross motor for 18 months (Developmental milestone)
+  `,
+    `Runs <br />
+  kicks ball <br />`
+  ],
+  [
+    `Fine motor for 18 months (Developmental milestone)
+  `,
+    `Builds tower of 2-4 cubes  <br />
+  Removes clothing`
+  ],
+  [
+    `Language for 18 months (Developmental milestone)
+  `,
+    `10-25 word vocabulary  <br />
+  Identifies >= 1 body part`
+  ],
+  [
+    `Social/Cognitive for 18 months (Developmental milestone)
+  `,
+    `Understands "mine"  <br />
+  Begins pretend play`
+  ],
+  [
+    `Gross motor for 2 years (Developmental milestone)
+  `,
+    `Walks up/down stairs with both feet on each step <br />
+  Jumps<br />`
+  ],
+  [
+    `Fine motor for 2 years (Developmental milestone)
+  `,
+    `Builds tower of 6 cubes  <br />
+  Copies a line  <br />
+  Turn pages
+  `
+  ],
+  [
+    `Language for 2 years (Developmental milestone)
+  `,
+    `50+ word vocabulary  <br />
+  2-word phrases`
+  ],
+  [
+    `Social/Cognitive for 2 years (Developmental milestone)
+  `,
+    `Follows 2-step command <br />
+  Parallel play  <br />
+  Begins toilet-training`
+  ],
+  [
+    `Gross motor for 3 years (Developmental milestone)`,
+    `Walks up/down stairs with alternating feet <br />
+  Rides tricycle <br />`
+  ],
+  [
+    `Fine motor for 3 years (Developmental milestone)
+  `,
+    `Copies a circle  <br />
+  Uses utensils`
+  ],
+  [
+    `Language for 3 years (Developmental milestone)
+  `,
+    `3-word sentences <br />
+  Speech 75% intelligible
+  `
+  ],
+  [
+    `Social/Cognitive for 3 years (Developmental milestone)
+  `,
+    `Knows age/gender <br />
+  Imaginative play`
+  ],
+  [
+    `Gross motor for 4 years (Developmental milestone)
+  `,
+    `Balances and hops on 1 foot
+  `
+  ],
+  [
+    `Fine motor for 4 years (Developmental milestone)
+  `,
+    `Copies a square `
+  ],
+  [
+    `Language for 4 years (Developmental milestone)`,
+    `Identifies colors <br />
+  Speech 100% intelligible`
+  ],
+  [
+    `Social/Cognitive for 4 years (Developmental milestone)
+  `,
+    `Cooperative play`
+  ],
+  [
+    `Gross motor for 5 years (Developmental milestone)
+  `,
+    `Skips <br />
+  Walsk backward`
+  ],
+  [
+    `Fine motor for 5 years (Developmental milestone)
+  `,
+    `Copies a triangle <br />
+  Ties shoelaces <br />
+  Independent dressing/bathing <br />
+  Prints letters `
+  ],
+  [
+    `Language for 5 years (Developmental milestone)`,
+    `Counts to 10  <br />
+  5-word sentences`
+  ],
+  [
+    `Social/Cognitive for 5 years (Developmental milestone)`,
+    `Has friends  <br />
+  Completes toilet-training`
   ]
 ];
-
-//Stopped at q150 hy1
+//End Developmental milestones for toddlerhood
