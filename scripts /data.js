@@ -976,7 +976,878 @@ const data = [
   I put group b strep`
   ],
   //End HY1 starting HY3
-
+  [
+    `Pregnant lady has a painless ulcer, cultures are negative for everything. Tx?`,
+    `Penicillin`
+  ],
+  [
+    `Pt has Bilateral facial pain, target rash (Lyme Disease). Tx/Prevent with? `,
+    `Doxycycline.
+  (Amoxcillin or Cefuroxime in a pregnant women and children)`
+  ],
+  [
+    `Pt gave birth about 7 days ago &amp; had episiotomy. Has guaze packing removed from vagina
+  TODAY. Pt is very sick now with fever, skin rash &amp; very low blood pressure. What is it?`,
+    `Staph Aureus Infection. (Toxic Shock Syndrome – like classic tampon question)`
+  ],
+  [
+    `Diabetic pt bumped his leg yesterday. Now skin is discolored and bullae are seen.
+  Diagnosis? `,
+    `Necrotizing Fasciitis (happens in DM pts). (Other option was Cellulitis)  <br />
+  a. Destruction of fascia &amp; subcutaneous fat w/ pain out of proportion to physical
+  findings. Usually from Anaerobic bacteria like Clostridium perfringens. Surgical
+  emergency if crepitus present. Do not delay with imaging studies. Tx. with surgical
+  exploration &amp; debridement &amp; broad spectrum antibiotics (Carbapenem or beta
+  lactam + Clindamycin. For MRS give Vanco, Dapto or linezolid)`
+  ],
+  [`Cellulitis with Erythema. Treatment? `, `Cephalexin`],
+  [
+    `Pt on TMP-SMX has Rash &amp; Heinz bodies on blood smear. Abnormal heme/onc numbers
+  show Pancytopenia/Aplastic Anemia. DIagnosis?`,
+    `G6PD Deficiency <br />
+  a. (Lack of G6PD means NADPH is not being produced. NADPH is needed to reduce
+  Glutathione to detoxify free radicals &amp; peroxides in rbcs. G6PD Deficiency causes
+  Hemolytic Crisis in the presence of oxidizing agents like Sulfonamides (TMP-SMX),
+  primaquine, fava beans, etc) (Heinz Bodies: denatured Hb precipitates in rbc
+  causing damage to cell membrane) (FA p108)
+  `
+  ],
+  [
+    `Girl has spherocytosis (rbc cytoskeleton abnormalities causing small, round rbcs) and then
+  develops Pancytopenia. What bug causes the Pancytopenia (decreased RBC, WBC
+  &amp;Platlets)? `,
+    `Parvovirus B19.  <br />
+  a. Parvovirus B19 can cause Aplastic Crisis, which is characterized hypo cellular bone
+  marrow with fatty infiltration and Pancytopenia. Symptoms: fatigue, malaise, pallor,
+  mucosal bleeding, petechiae, infection. TX: withdrawal of the offending agent &amp;
+  allogenic BM transplant, G-CSF or GM-CSF to stimulate the BM to make more WBC to
+  fight infections.`
+  ],
+  [
+    `Girl has recurrent UTI. They put her on meds &amp; she develops pancytopenia. Why?`,
+    `TMP-SMX can cause Bone Marrow Suppression leading to Pancytopenia &amp; Aplastic Anemia
+  (b/c it’s a folate antagonist)`
+  ],
+  [
+    `Thrombocytopenia, Eczema, Infections, low platelet count, (Immunodeficiency) Diagnosis?`,
+    `Wiscott Aldrich`
+  ],
+  [
+    `2 year old Baby in bathroom eats/drinks something and her lips swell. What did baby
+  eat/drink?`,
+    `Lye (Options were lye, glass, battery, nail)
+  `
+  ],
+  [
+    `Picture of itchy vulva with Vaginal Dryness in an older female. Diagnosis?`,
+    ` Lichen
+  Sclerosis (know difference between lichen Sclerosis &amp; lichenPlanus)`
+  ],
+  [
+    `3 year old. Lower end of his height and weight and couldn’t hop on one foot, and couldn’t
+  descend down the stairs properly`,
+    `fine motor- normal, gross motor delayed the other two
+  normal`
+  ],
+  [
+    `Boy in tennis shoes stepped on a nail. Mom Cleaned puncture wound with soap &amp; water and
+  now is red &amp; hurting. He has signs of osteomyelitis. What bug? `,
+    `Pseudomonas. (Other
+    options: Ekinella, Burkholderia cepacia, Pasturella multinocida)`
+  ],
+  [
+    ` Ear pic of a little girl who had been sick with ear pain but ear canal looks fine in picture.`,
+    `Acute otitis media`
+  ],
+  [
+    `Boy comes home from the camping trip with family &amp; is pulling on external tragus of ear.
+  Description of Otitis Externa (Diffuse infection of ear canal w/ pain &amp; tenderness localized to
+  auditory meatus. Pain w/ jaw movement. AKA Swimmer’s Ear). What bug? `,
+    `Pseudomonas
+  Aerguinosa`
+  ],
+  [
+    `Said Decrease Lung Capacity and Increase fev1/fvc `,
+    `Sarcodosis (Restrictive)`
+  ],
+  [
+    `IgE level was 2500 and had a history of asthma`,
+    `Allergic BronchoPulmonary Aspergillosis
+  (ABPA)`
+  ],
+  [
+    `18 y/o HIV Patient has a CD4 of 200 and he doesn’t like taking his meds. He now has Lobar
+  Infiltrate on chest x-ray (Pneumonia). What could have prevented this?`,
+    `Pneumococcal
+  vaccine to prevent pneumonia. (Other option was tmp-smx. You give that as prophylaxis after
+  patient’s CD4 count has fallen below 200)`
+  ],
+  [`Pt has Unilateral Bloody nipple discharge.`, `Intraductal Papilloma`],
+  [
+    `Breast feeding mother has a fever of 101.2*. Breast has a mass in RUQ &amp; red erythematous
+  skin. What is Diagnosis?`,
+    `Mastitis`
+  ],
+  [
+    `Study of 600 babies discharged from the hospital on day 2 vs 600 babies before day 2. A lot of
+  factors were being compared &amp; p value &lt; 0.85 (p &lt; 0.85 means Not Significant). Why is
+  study invalid? `,
+    `Because multiple factors being considered can alter the study`
+  ],
+  [
+    `NNT = 1/(.12-.08)= 25. Gave event rate in Placebo group as 12% and event rate in Treated
+  group as 8%. What is NNT?`,
+    `NNT = 1/(Placebo Event Rate) – (Treated Event Rate).`
+  ],
+  [`A Study on premature babies.`, `Lack of intent on meta analysis`],
+  [
+    `Pt. has feels like the room is spinning (dizziness) and left leg numbness. What is this?`,
+    `Multiple sclerosis. (Another option was benign positional Vertigo but leg numbness doesn’t
+    make sense with that)`
+  ],
+  [
+    `2 part question. 1. Guy had painless loss of vision in one eye for 15 mins (Transient Vision
+    Loss) and had tingling in his arm. What is it?  <br />
+    <br />2. Young guy had decreased in vision in one eye ,20/80, and color changes happening.
+    Marcus Gunn Pupil. What is pt’s condition?
+    `,
+    `Ans 1- Amaurosis Fugax. (Can be caused by ischemia
+      originating from CAD, Giant Cell Arteritis)<br />
+      <br /> Retrobulbar Optic Neuritis. <br />
+      a. Marcus Gunn Pupil (Afferent Pupillary Defect) causes pupillary constriction and
+      blurred vision in both eyes when light is shone into affected eye. Normal bilateral
+      constriction occurs when light shone in unaffected eye. Changes in color vision can
+      also occur. Symptom of Optic Neuritis.`
+  ],
+  [
+    `Picture of female volleyball player’s back shows some hypopigmented lesions (light spots
+    on tanned skin). What is it?`,
+    `Tinea Versicolor. (It is NOT actinic keratosis, which was an
+      option on the exam)`
+  ],
+  [
+    `Man woke up sudden pain in his eye.`,
+    `Acute Angle Glaucoma (very painful rock hard eye
+    w/ frontal headache. Opthalmological emergency. Tx w/ Pilocarpine.`
+  ],
+  [
+    `Day old baby with Central Cyanosis. Diagnosis?`,
+    `Transposition of Great Vessels`
+  ],
+  [
+    `Guy had a family Hx, he was over weight, diabetic.`,
+    `due to insulin resistance`
+  ],
+  [
+    `DKA question: Dka pt came into ER with fatigue, his glucose level was around 600 and had
+  ketones in urine. What causes DKA. `,
+    `Beta (B) Islet cell Problem (Know it’s related to DM
+    Type 1 &amp; lack of insulin production. Autoimmune pancreatic B cell destruction, leading to
+    insulin deficiency and abnormal glucose metabolism.)`
+  ],
+  [
+    `Diabetic Pt presents with severe dehydration, hyperosmolarity and low blood pressure. Pt
+  has HHS (Hyperosmolar Hyperglycemic Syndrome). How to Tx? `,
+    `IV saline (HHS &amp; DKA
+    both present with dehydration &amp; hyperosmolarity, but there are no ketones in HHS and it
+    occurs in mostly DM Type 2 pts)`
+  ],
+  [
+    `Kid comes in with DKA. How to Tx?`,
+    `IV Saline and IV insulin (DKA &amp; HHS both present
+    with dehydration &amp; hyperosmolarity, but DKA also has ketones in the blood &amp; urine and
+    occurs mostly in DM Type 1 pts who do not have any insulin)`
+  ],
+  [`Type 1 DM pt who has hypertension. Tx? `, ` Ramapril`],
+  [
+    `Man with BPH has urge to go the bathroom at night &amp; can’t hold it. Why?`,
+    `Detrusor
+  Instability (occurs because of Bladder Outlet Obstruction related to BPH and Overactive
+  Bladder)`
+  ],
+  [
+    `Woman who coughs/laughs and pee comes out. Why? `,
+    `Urethral Hypermobility.
+  Urethra &amp; bladder neck don’t close properly against anterior vaginal wall. Weak pelvic floor.`
+  ],
+  [
+    `A guy who had a cervical injury is not quadraplegic and positive babinski sign, asked what
+  catheter is best for not getting infections or stomas`,
+    `intermittent catheter`
+  ],
+  [
+    `Putting in a line and a clot appears when the catheter is in place. What do you do next? `,
+    `Remove catheter and start heparin. (Another answer choice was flush catheter with
+    Heparin.`
+  ],
+  [`300 lb guy can’t breath. Why?`, ` Hypoventilation Syndrome`],
+  [
+    `Give Rifampin prophylaxis to siblings and parents (close contacts) of Niesseria
+  Menigitidis infection patient (tx w/ cipro or ceftriaxone)`,
+    ``
+  ],
+  [
+    `ADHD boy who had trouble sleeping and would sleep with his mouth open and toss and turn,
+  sometimes he would stop breathing during his sleep. What next?`,
+    `Sleep study`
+  ],
+  [
+    `Kid didn’t go to school because he had intestinal issues and basically lactose intolerance`,
+    `enzyme deficiency`
+  ],
+  [`Girl with IBS`, `Loperamide`],
+  [
+    `Guy that was in a soft cast then comes back and his leg is edematous, peripheral pulses are
+  felt, he can dorsiflex his toe but they say the fracture isn’t that bad. What next? `,
+    `Closed
+  reduction (or check pressure)`
+  ],
+  [
+    ` Guy had bone growth/lateral protrusion from femur. What do you do? `,
+    `Excision`
+  ],
+  [
+    `Woman in her 60s has wrist and knee pain for a year. Picture: Showing DIP involvement.`,
+    `Osteoarthritis (degenerative joint disease). (Osteoarthritis involves DIP vs Rheumatoid
+    Arthritis which involves PIP &amp; MCP not dip) pg 226 FA`
+  ],
+  [
+    `X-ray of a girl who had infections before`,
+    `Osteosarcoma or Osteomyelitis`
+  ],
+  [`ST depression`, `management`],
+  [`St depression. What was involved?`, `Pericardium`],
+  [
+    `Guy who couldn’t feel his pulse in distal leg, had trouble sitting down and standing up. ABI &lt;1
+  (Ankle Brachial Index). Were is the problem? `,
+    `superficial femoral or aorticoiliac?`
+  ],
+  [
+    ` Pt. had femoral artery repair now has DVT. What caused the DVT? `,
+    `Popliteal
+  break off (popliteal artery is branch of femoral)`
+  ],
+  [
+    `Pulmonary embolism. What next? `,
+    ` Spiral CT (Other options: V/Q Scan, Heparin drip)`
+  ],
+  [
+    `Described pregnant pt. with history of DVT occurences. Asked what other values should you
+  check? `,
+    `Factor 5 Leiden mutation (MCC of inherited hypercoagulability b/c mutant factor 5
+    can’t be degraded by protein C causing increased thrombosis &amp; coagulation) (Other possible
+    answer choice was check homocysteine levels)`
+  ],
+  [
+    ` Young woman woke up in the middle of the night with chest pain at rest. Diagnosis?`,
+    `Coronary Vasospasm`
+  ],
+  [
+    `Patient with Raynaud’s asked how she could decrease the pain in her fingertips? `,
+    `Nifidipine`
+  ],
+  [
+    `Guy had cardiogenic shock &amp; had high PCWP (Pulmonary capillary wedge pressure),
+  Decreased Cardiac Output. Tx? `,
+    `Cardiac Catherization`
+  ],
+  [
+    `Old guy, 77 y/o, with a systolic murmur at 2 nd right IC space that decreases with hand grip
+  (valsava)`,
+    `Aortic Stenosis.`
+  ],
+  [
+    `Barium swallow. Had dysphagia for solids and liquids for the past 6 months. Diagnosis?`,
+    `Schatkzi Ring`
+  ],
+  [
+    `Progressive dysphagia of solids and liquid, no pic, but had lost about 30 lbs in the last few
+  months. Diagnosis? `,
+    ` Esphogeal-gastrodudenal stricture?`
+  ],
+  [
+    `Young girl. Mom steps outside. Girl admits she is sexually active. What do you test for? `,
+    `Chlamydia &amp; Neisseria gonorrhea (Urethral swab for Gm stain or Urine test for nucleic acid
+    amplification)`
+  ],
+  [
+    `Guy starts swimming in new outdoor public pool. Now he has groin itch. What is the Cause?`,
+    `hyphae and endospores.`
+  ],
+  [
+    `New systolic murmur heard (Mirtal regurgitation). Cause?`,
+    `Acute Rheumatic Disease`
+  ],
+  [
+    ` What is decreased Acute rheumatic disease with bilateral pulmonary problems? `,
+    ` Cardiac
+  Output`
+  ],
+  [
+    ` 2 part question 1. Lady who had decrease in total lung capacity (decreased
+    stretch/distension/expansion of lumg) and increase in fev1/fvc (&gt;80%)  <br /> <br />2. Guy had COPD &amp; smoking for years.`,
+    `Ans 1- Fibrosis of
+    lung (Restrictive lung Disease).<br /> <br /> 
+    Ans 2: Destruction of elastin causing loss of elasticity of
+    lungs. (Obstructive Lung Disease – because air trapping in lungs due to over expansion.
+    Airways close prematurely at high lung volumes ie. Obstruction. Therefore use positive
+    pressure O2 to tx).`
+  ],
+  [
+    `Boy had Epigastric Pain after eating, Palpable spleen, and Spherocytosis (+ve osmostic
+    fragility test)/ What do you do?`,
+    `Cholecysectomy and Splenectomy is curative. <br />
+    a. (Epigasttic pain after meals is due to pigmented gallstones due to rbcs that have
+    been destroyed in spherocytosis. Therefore remove both spleen &amp; gallbladder to
+    decrease rbc destruction and pain.)`
+  ],
+  [
+    `Guy on treatment for Leukemia has high uric acid levels. Tx?`,
+    `Allopurinol for long term.
+  Indomethacin for Acute exacerbation.`
+  ],
+  [
+    `Kidney failure after she had a transplant crazy blood pressure (HTN).`,
+    `Allograft Rejection.
+  `
+  ],
+  [
+    ` Boy has easy bleeding &amp; Hemarthrosis. Uncle had it too (Hemophilia). What is missing? `,
+    `Factor 8`
+  ],
+  [
+    ` Girl had 12mm induration on ppd &amp; exposure in family to an uncle who had TB. There are no
+  signs of disease in kid. What do you do?`,
+    `Tx her with INH for 9 months (always tx latent
+    TB)`
+  ],
+  [
+    `12 y/o girl with hemorrhage after onset of 1 st period. What next?`,
+    `Measure Bleeding
+  Time. (Increased BT in Von Willebrand’s Disease. A female pt that presents like hemophilia
+  most likely as VWD)`
+  ],
+  [` measure bleeding time`, ``],
+  [
+    ` Mom brought in her Anorexic daughter. Wore big clothes. Does not have periods. What Test?`,
+    `Measure Estriol`
+  ],
+  [
+    `52 year old woman comes in with no period for 6-8 months. She feels tired &amp; fatigued and
+  has hot flashes. What is the next best step?`,
+    `Check FSH or Check Estriol Level (Another
+    answer choice was discuss HRT (hormone replacement therapy). I figured you should check
+    the levels first b4 putting them on estrogen/hormone replacement therapy)`
+  ],
+  [
+    `Patient has 3 tbsp of productive sputum &amp; getting worse. Negative chest x-ray. Diagnosis?`,
+    `Bronchiectasis (Other options: Wegeners, Aspergillosis)`
+  ],
+  [
+    `Lady who comes in 40 year pack smoking history, wheezing heard, 1 day history of blood
+  tinged sputum and through out the day she collected a cup. Diagnosis?`,
+    ` Chronic bronchitis or
+  TB? There was sweats fever, fatigue, night sweats.`
+  ],
+  [
+    `4 year old child presents with wheezing now but had bronchiolitis infection as baby. What is
+  diagnosis today? `,
+    `Asthma (FA-415)`
+  ],
+  [
+    ` 2 week history of a lady who had SIGECAPS`,
+    ` major depression or Adjustment disorder`
+  ],
+  [
+    `Friends from college brought girl in because she has been acting bizarre. She recently
+  switched to Bupropion for MDD and now she shows signs of mania. `,
+    `Bipolar Disorder
+  because antidepressents can precipitate a manic episode FA pg 394. Pick MDD with psychotic
+  features if Bipolar disorder is not listed as option.`
+  ],
+  [` Woman who has been hearing voices. Tx? `, `Haloperidol`],
+  [
+    ` Schizophrenic Pt develops rigidity. Haloperidol toxcitiy. How to Tx? `,
+    `Benzotropine
+  (Anticholinergic)`
+  ],
+  [
+    `Nurse she thinks she can do procedures all by herself and thinks the doctors reported her to
+  the FDA. Diagnosis?`,
+    `Delusional`
+  ],
+  [
+    `Guy who had schizophrenia for 2 years. He is on Olanzapine, came into the office a month
+  ago because of work issues, he smokes marijuana once a year, got into a disagreement at work
+  &amp; now believes coworkers are going to harm him. What next?`,
+    `Ask him if he is taking his
+  meds or if anything has happened in the last 3 weeks?`
+  ],
+  [`Lady with Palpitations. Dx?`, `Panic Disorder`],
+  [
+    `Patient with Hyperthyroidism symptoms (Graves). What antibodies are found? `,
+    `Anti-
+  TSH Receptor Antibodies is specific for Grave’s (Other Otion: Anti-thyroglobulin is found in
+  both Grave’s &amp; Hashimotos, so not the best answer)`
+  ],
+  [
+    `14 year old girl who was had low T4 and high TSH. Diagnosis?`,
+    `Chronic Hashimotos`
+  ],
+  [`Pregnant lady with Hyperthyroid. Tx? `, ` PTU`],
+  [`Roofer with restrictive lung disease. Why? `, `Occupational`],
+  [`Pleural aspirate`, `Lactate Dehydrogenase`],
+  [
+    `Woman with an 18 week uterus &amp; 4 mm strip. No symptoms of pregnancy. Diagnosis?`,
+    `Leiomyomata Uteri (Fibroid)`
+  ],
+  [` Kid born with meconium aspirate. Complication? `, `Pneumothorax`],
+  [`Anemia of chronic disease`, ` treat underling problem first- MTX`],
+  [`Decrease Hb in a middle-aged man. What test? `, ` Colonoscopy`],
+  [
+    `Blood glucose = 200, blood alcohol = 200, ventricles decreased in size. Does not respond to
+  words but responds only to pain. What is causing neuro symptoms?`,
+    `Alcohol
+  Intoxication (Other option: cerebral edema)`
+  ],
+  [`Guy who couldn’t bend two fingers `, `palmar fascia hyperplasia`],
+  [
+    ` Pregnant woman with symptoms of carpal tunnel. What next? `,
+    `Splint. (Can’t do surgery or
+    give Rx)`
+  ],
+  [
+    `Guy lifting heavy boxes &amp; hurts himself. Now can’t dorsiflex foot. Why? `,
+    ` Herniation at
+  L4/L5`
+  ],
+  [
+    `Guy with joint pain, rash, psoarsis`,
+    `blood culutres or ana or chest xray?`
+  ],
+  [
+    `Child complains of wrist pain and joint pain. Diagnosis? `,
+    `Juvenile Rheumatoid Arthritis.`
+  ],
+  [
+    `18 year old boy with Mild Retardation has Gynecomastia, weighs 220 lbs and is 6 ft tall with
+  long arms (Klinefelters). He has trouble getting erections manually and also has decreased
+  erections in the morning. Why? `,
+    `Leydig cells don’t produce enough testosterone due
+  to testicular Atrophy. (Other option: Pituitary isn’t secreting enough LH)`
+  ],
+  [
+    `Ran 13 miles. Red-brown urine (Myoglobinuria), Electrolyte imbalance &amp; Kidney Failure.
+  (McArdle’s – myophosphorylase deficiency). Why Kidney failure?`,
+    ` Myoglobin messes up the tubules (Tubular obstruction b/c of heme pigment casts &amp; Tubular Injury from
+    chelatable Iron)`
+  ],
+  [
+    `Lab values show high eiosinophils (&gt; 3%). Normal eosinophil count is 1-3%. Diagnosis? `,
+    `Allergic Interstial Nephritis. <br />
+    a. AIN is Intrinsic Acute kidney injury (drug induced such as PCN, Cephlasporins,
+    Sulfonamides, NSaids, allopurinal, rifampin, phenytoin) (Other option choice was
+    Lisinopril induced problem to the kidney)pg 447 on FA
+    `
+  ],
+  [
+    `Lab values with decreased pH &amp; decreased pCO2 at 25`,
+    `Metabolic Acidosis with
+  Respiratory Compromise -&gt; decreased pH, decreased pCO2 + decreased HCO3. <br />
+  a. (Respiratory Acidosis with Metabolic Compromise is decreased pH, increased pCO2,
+  increased HCO3. Don’t get these mixed up!)
+  `
+  ],
+  [
+    `Pic of African American man with red hypopigmented lesions on back (Steven Johnson
+    Syndrome) + Nikolsky Sign. What do you do next? `,
+    `Admit to Burn Unit. Steven Johnson
+    Syndrome causes sloughing of skin, resp epithelum, mucus membranes &amp; fever. Increased
+    mortality. Tx like a burn victim with supportive care &amp; IVIG.`
+  ],
+  [
+    `Alcoholic had blood oozing from gums and petechiae in multiple spots Why`,
+    `Vit C (or
+    Clotting factor deficiency)`
+  ],
+  [
+    `Guy drank about 3 beers a day he had low Hb &amp; low mcv. How could his heme problems been
+  prevented?`,
+    `Multivitamin daily. (Other option: Limit alcohol intake)`
+  ],
+  [
+    `Old lady wants to prevent fractures. Has hx of DVT. She takes Ca and Vit D supplements
+  already. What else can she do? `,
+    `Alendronate for osteoporosis. (Don’t choose estrogen
+    b/c that can cause DVT)`
+  ],
+  [
+    `13 y/o boy with mass under breast but no discharge. He was on SSRI. Why?`,
+    `Normal
+  Puberty?`
+  ],
+  [
+    `MALT Lymphoma of the Gut. Tx? `,
+    `Antibiotic treatment with Amoxicillin b/c usually
+  due to H. Pylori infection.`
+  ],
+  [`Epididymitis. Tx?`, `Antibiotics`],
+  [
+    `Fragile X Scenario. What Chromosomal abnormality? `,
+    `Trinucleotide repeat`
+  ],
+  [
+    `47 y/o woman comes into ER w/ nuchal rigidity after vomiting &amp; passing out from a massive
+  right sided headache. Shows signs of Increased Intracranial Pressure. No focal problems. Pt
+  is obtunded &amp; has st elevation &amp; peaked t waves. What’s next best step?`,
+    `Mannitol. (ton
+    of choices lumbar puncture, mannitol, ct, tee, etc)
+    `
+  ],
+  [
+    `Pt has small cell carcinoma of lungs &amp; showed hyponatremia, low serum osmolarity.
+  What is causing hyponatremia? `,
+    `Decreased excretion of urine/water from kidneys
+  due to ectopic ADH production by tumor <br />
+  a. Increased ADH causes hyponatremia, decreased serum osmolality and elevated
+  urine osmolality. But patient is Euvolemic &amp; Hyponatremic because body
+  compensates for increased ADH water retention by decreasing Aldosterone
+  secretion, causing water &amp; Na+ loss through the kidney.`
+  ],
+  [
+    `High AST and ALT in 1000s`,
+    `Viral hepatitis. Histology- pan lobular mononuclear
+  infiltration with hepatic cell necrosis. Kupffer cells phogocytose hepatocellular debris and
+  confluent hepatic cell necrosis connects adjacent lobules (bridging necrosis)`
+  ],
+  [`First most likely elevated in alcoholic liver`, `AST`],
+  [
+    `Lady who had her left side messed up and her right side of face had something going on? `,
+    `Internal capsule?`
+  ],
+  [
+    `Lady had dizziness couldn’t sit up straight and would walk toward a certain direction?`,
+    `MRI`
+  ],
+  [
+    `Lady had a history of seizures in her left leg and left hand side. There was a head CT. What is
+  it? `,
+    `Radiation of the parietal lobe`
+  ],
+  [
+    `Guy had 6 episodes of recurrent pancreatitis. What do you check for? `,
+    `Elevated
+  Triglycerides`
+  ],
+  [`Cocaine with withdrawl in a girl`, `dysphoria`],
+  [
+    ` Lady pregnant with Monochorionic twins, with one sac and no membrane between them.
+  There is an increased risk of what? `,
+    `Cord entanglement (Other Options: Uterine
+    Rupture, Conjoining)`
+  ],
+  [
+    `Guy who is 17 comes in on 3 occasions and he eats a lot of junk. Has high blood pressure all
+  three times. How to control?`,
+    `Better food choices`
+  ],
+  [`Rheumatic disease what valve is messed up`, `mitral`],
+  [
+    `Pt. has lens dislocation &amp; long fingers (Marfans), He also has a diastolic murmur (Aortic
+    regurg). What is most likely to be the problem?`,
+    `Aortic Root Dilation`
+  ],
+  [
+    `Woman with painful vesicular lesion on vulva (hsv history) wants to get pregnant. What is
+  the complication?`,
+    `Intrapartum Transmission to baby (can cause temporal encephalitis
+    in baby)`
+  ],
+  [
+    `COPD pt who was already told to quit smoking next thing to do`,
+    `home 02 therapy`
+  ],
+  [
+    `Young patient with Fistula/abscess on butt &amp; Oral Ulcers. Diagnosis? `,
+    `Crohn’s Disease`
+  ],
+  [
+    `Mom complains about kid with cough &amp; neck twitching. Diagnosis?`,
+    `Tourretts`
+  ],
+  [
+    `Girl had recent Strep infection. 2 weeks later what does she have? `,
+    `Glomerulonephritis`
+  ],
+  [
+    ` Child has tubular mass &amp; jelly like diarrhea. What is your next step in management?`,
+    `Barium Enema because pt has intussusception. It is both diagnostic &amp; therapeutic.`
+  ],
+  [
+    `Septic shock with low BP. What do you do next? `,
+    `Normal Saline (fluid + pressors for all
+    types of shock except cardiogenc) Septic Shock: fluids + pressors + antibiotics. Hypovolemic &amp;
+    Nerogenic Shock: fluid + pressors. Cardiogenic Shock: Treat Cardiac problem. MTB p382`
+  ],
+  [` Little boy who was had feeding problems`, `oral hydration`],
+  [
+    `Pt has withdrawal bleeding after progesterone test, why is she not menstruating? `,
+    `Anovulation. Too much progesterone causes anovulation and bleeding only occurs after
+  progesterone levels drop.`
+  ],
+  [
+    `Picture of blood cells showing Rouleux formation. These are seen in Multiple Myeloma.
+  What test is Definitive?`,
+    `Bone Marrow Aspiration/Biopsy`
+  ],
+  [` Bruit is heard in a woman who takes OCP.`, `Clot in the renal vessel`],
+  [
+    `Increased Sodium &amp; Decrease Potassium. What next?`,
+    `Check aldosterone renin levels`
+  ],
+  [
+    `Pic with single massive lesion in the liver. Liver cancer marker?`,
+    `Alpha Fetal Protein`
+  ],
+  [
+    `Woman was put on thiazide now she has hyponatremia and hypokalemia`,
+    `discontinue
+  hydrochlorthiazide or add ace`
+  ],
+  [
+    `Elderly male with symptoms of aortic dissection and has decreased blood pressure. What
+  next? `,
+    `Exploratory Laparotomy`
+  ],
+  [
+    `Woman who had previous surgeries now she has Small Bowel Obstruction.`,
+    `Adhesions`
+  ],
+  [
+    ` 19 year old who had pneumonia and also had a rash everywhere`,
+    `mycoplasma pneumonia`
+  ],
+  [`Guy lost sensation in his hands after an argument`, `conversion disorder`],
+  [
+    `Foot of a diabetic. From the lab values he was in coma. What you do next`,
+    `check serum osmolarity`
+  ],
+  [
+    `Cyanotic baby po2 60 within hours of birth. What is the MCC cause of infantile cyanosis?`,
+    `Transposition of Great Vessels`
+  ],
+  [`Tension headaches, band like headache`, `Ibuprofen`],
+  [
+    `Patient with BHcg is 7100. Pain on one side. Fluid in uterus on ultrasound but no
+  signs of gestational sac. Diagnosis? `,
+    `Ectopic pregnancy (Other option:
+    Hydadiform mole but Hcg would have been in 100,000’s)`
+  ],
+  [`Depression`, `ssri`],
+  [`Child abuse`, `contact child protetive services`],
+  [
+    `HUS Scenario. E coli poisoning. What would have prevented this? `,
+    `Properly cook the
+  food to kill E Coli. (proper food handling)`
+  ],
+  [
+    ` She had post nasal drip for a few days but her lymph nodes were palpable`,
+    ` sinus xray`
+  ],
+  [
+    `Hematuria in a lady s/p hysterectomy for endometriosis. She is on estrogen therapy, Has
+  dysuria, and increased urinary frequency. No fever. Diagnosis? `,
+    `Urolithiasis. (Other
+    options: UTI, Endometriosis)`
+  ],
+  [` Lead 2, 3, avf were affected`, `RCA`],
+  [`Pulmonary edema`, `furosemide`],
+  [`Hyperprolactin levels`, `check TSH`],
+  [
+    `Low levels of ca and of po4 and it has 2.5 level of albumin`,
+    `was it due to Vit d or hypoalbumin?`
+  ],
+  [`Obese man with Obstructive sleep apnea. What Test?`, `Polysonography`],
+  [
+    `Had Miliary TB &amp; now her ovaries were messed up. Why?`,
+    `Hematogenous spread`
+  ],
+  [
+    `Can’t wrinkle forehead. Facial nerve/Bell Palsy. What next? `,
+    `Tx with Prednisone.
+  (Electromyography &amp; Nerve conduction Studies are the most accurate test for Bell Palsy but
+  usually no test is done)`
+  ],
+  [`Scrotal mass`, `Ultrasound`],
+  [
+    `22 y/o with high-grade intraepithelial lesion, ASCUS on Pap Smear (Atypical Cells of
+    Undetermind Significance). Next step?`,
+    `Colposcopy`
+  ],
+  [
+    `Tetanus vaccine and Immunoglobulin both are given b/c patient had not received a vaccine
+  since the age of 6`,
+    ``
+  ],
+  [
+    `Afp that was .2 from the median, 37 year old with low afp`,
+    `down syndrome`
+  ],
+  [`Mucopulurent discharge from the cervix`, `—chlamydia`],
+  [
+    `Old man had Gastrectomy and taking folate. But now he can’t walk straight. Nerve problems.
+  What is the cause?`,
+    `Vitamin B12 Deficiency (Folate doesn’t protect against the
+    neurodegenative effects of Vitamin B12 deficiency. Only prevents anemia)`
+  ],
+  [
+    `Parents bring in their kid. Kid is diagnosed w/ Leukemia. Parents refuse chemotherapy
+  and say they’ll use herbal remedies. What do you do? `,
+    `Start Therapy Anyway (b/c
+    withholding tx is equivalent to child abuse (as per U-World – exact same question). If there is
+    an option of start treatment AND get court order pick that but otherwise treat the child in this
+    case.)`
+  ],
+  [
+    `Pt. had hypertension, what meds do u give him? He didn’t have any kidney problems`,
+    `thiazide
+  ans. B-blocker`
+  ],
+  [
+    `Asked what protects against osteoporosis? `,
+    ` Estrogen
+  `
+  ],
+  [`Pic of bone raised on a child.`, `Looked like Osteosarcoma`],
+  [
+    `Question with HTN, edema, protein in urine. Diagnosis? `,
+    `Glomerulonephritis`
+  ],
+  [
+    `Some guy has HTN. You hear renal artery bruit. What do u see on biopsy? `,
+    `I said
+  atherosclerosis from aorta to renal artery`
+  ],
+  [
+    `Guy went camping in woods, drank water, had unprotected sex with lots of people. Came
+  home &amp; developed maculopapular rash over trunk, hands, feet, back. What is it? `,
+    `Rocky
+  Mountain Spotted Fever (rash on palms and soles and then moves to trunk just like syphilis,
+  but starts sooner). (other Options: Choices: Syphillis, Lyme Disease, Strep induced)`
+  ],
+  [
+    `Woman has a liver transplant, and develops jaundice. AST and ALT in 70s. Eosinophils
+  elevated. Cause of jaundice? `,
+    `Allograft rejection (Other Options: Alcoholic, Autoimmune,
+    Parasite,)`
+  ],
+  [
+    `Baby has some weird musculoskeletal abnormalities &amp; develops ulcer on occiput. Why did he
+  get ulcer? `,
+    `Pressure Ulcer`
+  ],
+  [
+    `Typical pic of fundoscopy of eye. Pic showed a yellow disc in the center with a black crescent
+  on the top right of the yellow disc. What is it?`,
+    `(Options: papilloedema, conus, cupping of the
+    optic dics, glaucoma) Ans:`
+  ],
+  [
+    `Man with DM2 comes to ED for something. He was dehydrated. Serum shows Glucose 800.
+  What do you do?`,
+    `Give IV fluids.`
+  ],
+  [
+    `Kid with hx of multiple Otitis media and Externa. Also had viral meningitis as a neonate.
+  Listens to really loud music. Otoscopy shows no problems. Audiometry shows he can’t hear
+  stuff at high frequencies. Why does the kid have hearing problems? `,
+    `Hx of otitis media
+  (Other Options: listening to loud music, Hx of meningitis, Bone disorder)`
+  ],
+  [
+    `Pic of a 13 y/o girl lesions around mouth. Tx?
+  `,
+    `a. Acyclovir if its HSV <br />
+  b. Mupirocin if its Impetigo
+  `
+  ],
+  [
+    ` Facial droop, weakness on one side of face, pain n temp sensation normal both sides of face.
+  Decreased hearing in both ears. Cause? `,
+    `Bell&#39;s palsy (If can’t hear out of BOTH ears then
+    it could be Acoustic Neuroma also)`
+  ],
+  [
+    `Kid eats something. Gets SOB &amp; Allergic reaction. Xray shows pharynx narrowing. Tx?`,
+    `IM Epi.
+  (Sub Q epi was not a choice)`
+  ],
+  [
+    `Elderly patient with rash on right side of abdomen. Goes from midline to the vertebrae in the
+  back. What should she get to prevent recurrence of Shingles?`,
+    `Acyclovir (oral)`
+  ],
+  [
+    `Pregnant lady at 27 wks gestation comes in with vaginal bleeding. Internal OS closed, external
+  OS open. No contractions. Ultrasound 3 weeks ago showed no placenta previa. Cause of bleed?`,
+    `still most likely Placenta Previa. (Spontaneous abortion not possible after 27 weeks)`
+  ],
+  [
+    `Man with neck rigidity. No fever. No focal abnormalities. CT head is fine. Next step?`,
+    ` LP &amp;
+  CSF analysis`
+  ],
+  [
+    `Baby with low leukocyte count has a fever. Next step?`,
+    `Tx with Amoxicillin +
+  Gentamycin`
+  ],
+  [
+    `15yo comes for annual physical. Normal BMI. BP 150/90. What to do? `,
+    `Choices: Come back in
+  1 month, give ACEi, give beta-blocker, come back in 1 year.`
+  ],
+  [
+    `Patient has a suspicious mole on the face. How do you diagnose?`,
+    `Excisional Biopsy
+  (other Options: Punch Biopsy, Incisional Biopsy)`
+  ],
+  [
+    `Child with asthma, what do you expect on PFTs? `,
+    `Decreased FEV1/FVC. Increased TLC.
+  Decreased FRC`
+  ],
+  [
+    `Patient is being treated for TB with Isoniazid. What should you give patient to prevent
+  peripheral neuropathy?`,
+    `Vitamin B6.`
+  ],
+  [`Opiate overdose. Antidote? `, `Naloxone`],
+  [`Patient has PCOS. What is she at a high risk for? `, `Endometrial Ca`],
+  [
+    `Vignette describes a newborn with Down syndrome. What could have been expected in
+  pregnancy? `,
+    `Decreased AFP level`
+  ],
+  [
+    ` Diabetic woman on metformin becomes pregnant. What is the management of her diabetes
+  throughout her pregnancy? `,
+    `Discontinue Metformin &amp; begin insulin.`
+  ],
+  [`MCC Postpartum bleeding (appx. 1L after delivery)?`, `Uterine Atony`],
+  [
+    `Elderly patient has painless vision loss described as “a curtain coming down.” Retinal
+  Detachment. What is the treament?`,
+    `Surgery`
+  ],
+  [`Treatment for MDD?`, `SSRIs`],
+  [`Baby’s first breath`, `Causes a decrease in pulmonary vascular resistance`],
+  [
+    `Woman presents with hypoglycemia &amp; she is given glucose. Levels are still decreased. She has
+  another hypoglycemic episode in the hospital. No C-peptide present.`,
+    `factitious
+  hypoglycemia`
+  ]
 ];
 
 //Stopped at q150 hy1
