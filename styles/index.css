@@ -1,7 +1,7 @@
 :root {
   --primary-color: #aaa0a0;
   --secondary-color: white;
-  --font-color: #e1e1ff;
+  --font-color: #f9f9fc;
   --bg-color: #2f2f3b;
   --btn-color: rgb(240, 172, 145);
 }
@@ -62,7 +62,7 @@ button {
     line-height: 1.5;
     color: #495057;
     background-color: #fff;
-    border: 1px solid var(--primary-color);
+    border: 1px solid #888a8b70;
     border-radius: 0.25rem;
   }
 .correct-btn {
