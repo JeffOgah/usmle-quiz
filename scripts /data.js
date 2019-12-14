@@ -439,7 +439,7 @@ const data = [
   ],
   [
     `22 yo with ASCUS-high grade. Next step?`,
-    `Colposcopy <img src="../images/hy1-q93-ans.png" />`
+    `Colposcopy <img src="../assets/hy1-q93-ans.png" />`
   ],
   [
     `12 yo with hemorrhage after onset of 1st period. What do u do next?`,
@@ -505,7 +505,7 @@ const data = [
   [
     `Had a patient who just ran 13 miles and collapsed. CPK was elevated.
     Why are her renal labs messed up?`,
-    `A. due to myoglobin in renal tubules <img src="../images/hy1-q105-ans.png" />`
+    `A. due to myoglobin in renal tubules <img src="../assets/hy1-q105-ans.png" />`
   ],
   [
     `Increased creatinine and ketones in urine with FENA <0.2%. What
@@ -656,7 +656,7 @@ const data = [
   ],
   [
     `description of compartment syndrome- remember the P’s`,
-    `fasciotomy  <br /> <img src="../images/hy1-q136-ans.png" />`
+    `fasciotomy  <br /> <img src="../assets/hy1-q136-ans.png" />`
   ],
   [
     `Chronic GERD and trouble swallowing. What dx test do you do?`,
@@ -706,7 +706,7 @@ const data = [
   ],
   [
     `Herniated disc and sciatica what nerve roots?`,
-    `L4/L5? <br/> <img src="../images/hy1-q150-ans.png" />`
+    `L4/L5? <br/> <img src="../assets/hy1-q150-ans.png" />`
   ],
   [
     `Human bite organism`,
@@ -740,13 +740,13 @@ const data = [
   palsy. What should she have gotten to prevent this early on in disease?`,
     `Doxycycline (preggos and less than 8 years old you use amoxicillin) <br />
   Ceftriaxone when CNS and Cardiac Symptoms. <br />
-  Avoid ceftriaxone in neonates because of impaired biliary metabolism <br /> <img src="../images/hy1-q159-ans-a.png"/> <br /> <img src="../images/hy1-q159-ans-b.png" /> `
+  Avoid ceftriaxone in neonates because of impaired biliary metabolism <br /> <img src="../assets/hy1-q159-ans-a.png"/> <br /> <img src="../assets/hy1-q159-ans-b.png" /> `
   ],
   [
     `Patient delivered not too long ago. Had episiotomy midline. Now
   present with signs of infection. Gauze packing was removed to inspect and
   was malodourous. Which organism most likely caused the infection?`,
-    `staph – toxic shock syndrome <br/> <img src="../images/hy1-q160-ans.png"/>`
+    `staph – toxic shock syndrome <br/> <img src="../assets/hy1-q160-ans.png"/>`
   ],
   [
     `BEST TREATMENT FOR CELLULITIS. A GUY BUMBPED HIS LEG ON
@@ -796,7 +796,7 @@ const data = [
     `I had a very long vignette on types of apnea. Hypo-ventilation
   syndrome patient was very obese - 300 lbs. Look up blood gases to help??
   Obese patient with COPD symptoms- cause?`,
-    `Obesity/hypoventilation <br /> <img src="../images/hy1-q170-ans.png"/>`
+    `Obesity/hypoventilation <br /> <img src="../assets/hy1-q170-ans.png"/>`
   ],
   [
     `Close contact prophylaxis for brother ages 2 &9. Older brother has n. meningitidis.`,
@@ -894,7 +894,7 @@ const data = [
   ],
   [
     `Look up IgE syndrome vs IgE levels in asthma`,
-    `<img src="../images/hy1-q187-ans.png"/>`
+    `<img src="../assets/hy1-q187-ans.png"/>`
   ],
   [
     `Guy is a roofer. Dad dies of lung cancer, and is a smoker. Has calcified
@@ -960,7 +960,7 @@ const data = [
   [
     `Pediatric patient presents with symptoms that characterize varicocele.
   What is the best diagnostic test?`,
-    `Ultrasound  <br /> <img src="../images/hy1-q197-ans.png"/>
+    `Ultrasound  <br /> <img src="../assets/hy1-q197-ans.png"/>
   `
   ],
   [

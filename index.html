@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
+    <header>
+      <nav class="nav">
+        <h1>USMLE Prep Quiz</h1>
+        <img class="theme-switch" src="" alt="" />
+      </nav>
+    </header>
     <main>
-      <h1>USMLE Prep Quiz</h1>
       <section id="quizSetup">
         <div>
           <h2>How to Use</h2>
@@ -54,7 +59,7 @@
         <!-- <div id="timer"></div> -->
         <div id="currentQuestion" class="d-none">
           <div id="question" class="mt-2"></div>
-          <button id="showAnswer" onclick="showAnswerEvents()" class="mt-2">
+          <button id="showAnswer" onclick="showAnswerEvents()" class="mt-2 btn">
             Show Answer
           </button>
           <div id="answer" class="d-none mt-2"></div>
@@ -73,7 +78,11 @@
           <h2>Wrong Answers</h2>
         </div>
         <h2 class="d-none" id="perfectScore">Perfect Score!</h2>
-        <button id="newQuiz" class="btn mt-2 d-none" onclick="location.reload()">
+        <button
+          id="newQuiz"
+          class="btn mt-2 d-none"
+          onclick="location.reload()"
+        >
           Home
         </button>
       </section>
@@ -81,5 +90,6 @@
 
     <script src="./scripts /data.js"></script>
     <script src="./scripts /index.js"></script>
+    <script src="./scripts /theme.js"></script>
   </body>
 </html>

@@ -1,4 +1,27 @@
-#timer {
+:root {
+  --primary-color: #aaa0a0;
+  --secondary-color: white;
+  --font-color: #e1e1ff;
+  --bg-color: #2f2f3b;
+  --btn-color: rgb(240, 172, 145);
+}
+
+[data-theme="light"] {
+  --primary-color: rgb(49, 49, 63);
+  --secondary-color: black;
+  --font-color: #080808;
+  --bg-color: rgba(247, 244, 244, 0.973);
+  --btn-color: rgb(77, 77, 168);
+}
+html {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+/* #timer {
     display: none;
     background-color: rgb(48, 46, 46);
     color: white;
@@ -7,7 +30,7 @@
     border-radius: 5px;
     min-width: 2.5em;
     min-height: 1em;
-}
+} */
 button {
     border: none;
     height: 2.5em;
@@ -26,8 +49,8 @@ button {
     margin-top: 2em;
   }
   .btn {
-      background-color: rgb(77, 77, 168);
-      color: white;
+      background-color: var(--btn-color);
+      color: var(--bg-color);
   }
 .form-control {
     display: inline-block;
@@ -39,20 +62,19 @@ button {
     line-height: 1.5;
     color: #495057;
     background-color: #fff;
-    border: 1px solid #ced4da;
+    border: none;
     border-radius: 0.25rem;
   }
 .correct-btn {
   background-color: rgb(3, 175, 3);
   color: white;
 }
-.correct-btn:hover {
-  background-color: green;
-}
 .wrong-btn {
   background-color: rgb(204, 9, 9);
-  color: white;
+  color: white;;
 }
-.wrong-btn:hover {
-  background-color: rgb(167, 3, 3);
+.theme-switch {
+  height: 4vh;
+  width: 4vh;
+  margin: 1em;
 }
